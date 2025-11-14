@@ -1,0 +1,120 @@
+@font-face {
+    font-family: circular-regular;
+    src: url(CircularRegular.ttf);
+}
+
+body{
+    position: relative;
+    font-family: circular-regular;
+    margin: 0;
+}
+
+.navbar
+{
+    position: sticky;
+    top:0;
+    width: 100vw;
+    height: 80px;
+    background: #5194ff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    filter: drop-shadow(0px 2px 2px black);
+}
+.hintbox
+{
+    display: block; 
+    position: relative;
+    border-radius: 5px; 
+    background-color: rgb(48, 48, 48);
+    margin-top: 5px;
+}
+#hints
+{
+    margin: 10px;
+}
+.sitetitle
+{
+    margin: 0 0 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+}
+.hintlevelname
+{
+    display: inline-flex;
+    width: 45%; 
+    padding: 5px 5px 5px 20px; 
+    color: white;
+}
+.hintheader
+{
+    display: block;
+    width: 100%;
+}
+.hintbuttons
+{
+    float:right;
+    margin: 10px 20px 5px 0;
+    width: 45%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.hintbutton
+{
+    display: inline-flex;
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.hinttextbox
+{
+    display: none;
+    margin: 0;
+    padding: 5px 5px 5px 20px;
+    border-radius: 0 0 5px 5px;
+    background-color: #397fd5;
+}
+.hinttext{
+    color: white;
+}
+.liner
+{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    height: 5px;
+    margin:0;
+    padding:0;
+}
+.sectiontitle
+{
+    display: flex;
+    justify-content: center;
+}
+.navbtns
+{
+    position: absolute;
+    display: flex;
+    right: 0;
+    padding: 20px;
+}
+.navbtn{
+    display: block;
+    margin: 0 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.navbtn:hover
+{
+    color: gold;
+}
+button:hover{
+    background-color:gold;
+    cursor: pointer;
+}
