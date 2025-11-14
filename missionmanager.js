@@ -43,11 +43,39 @@ var hints = [
         hint3: "Hint 3 - Make sure you are on the correct layer on the Tile Palette"
     },  
     {
-        id: 123,
-        name: "Mission",
-        hint1: "",
-        hint2: "",
-        hint3: ""
+        id: 6,
+        name: "Mission 6 - Sensor Door",
+        hint1: "Hint 1 - Check the components for missing references",
+        hint2: "Hint 2 - Colliders",
+        hint3: "Hint 3 - It should be OnTriggerEnter2D, not OnCollisionEnter2D"
+    },  
+    {
+        id: 7,
+        name: "Mission 7 - Lock n Key",
+        hint1: "Hint 1 - Use the first lock and key from the left as an reference",
+        hint2: "Hint 2 - Compare the Id's of the key and locks that are paired",
+        hint3: "Hint 3 - Check that all the components are there and corrctly set up for the locks and keys"  
+    },  
+    {
+        id: 8,
+        name: "Mission 8 - Quiz Master Returns",
+        hint1: "Hint 1 - This one you have to do on your own.",
+        hint2: "Hint 2 - You'll learn from wrong answers too.",
+        hint3: "Hint 3 - You can repeat this until you know at least half of the answers by heart!"
+    },  
+    {
+        id: 9,
+        name: "Mission 9 - Greedy Cody",
+        hint1: "Hint 1 - Check the Player script.",
+        hint2: "Hint 2 - Create the missing collision check for the diamonds",
+        hint3: "Hint 3 - Use the trophy collision check as an example"
+    },  
+    {
+        id: 10,
+        name: "Mission 10 - Boss Fight - Cat Pranks",
+        hint1: "Hint 1 - Double Click the comments and Error in the console to see where they take you in code.",
+        hint2: "Hint 2 - Check the hierarchy for something that should not be there.",
+        hint3: "Hint 3 - The Trophy script has something extra in it as well."
     }
 ];
 
