@@ -11,6 +11,7 @@ body{
 
 .navbar
 {
+    z-index: 1;
     position: sticky;
     top:0;
     width: 100vw;
@@ -28,6 +29,7 @@ body{
     display: block; 
     position: relative;
     border-radius: 5px; 
+    width: 98%;
     background-color: rgb(48, 48, 48);
     margin-top: 5px;
 }
@@ -117,4 +119,30 @@ body{
 button:hover{
     background-color:gold;
     cursor: pointer;
+}
+.txtbox
+{
+    display: flex;
+    margin: 0 20px 20px 20px;
+    background: gray;
+    width: 700px;
+    max-width: 98%;
+    justify-content: center;
+    border-radius: 5px;
+    filter: drop-shadow(0px 2px 1px black);
+    color: white;
+}
+.txtboxtxt
+{
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 15px;
+}
+.section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
