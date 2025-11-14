@@ -76,13 +76,33 @@ var hints = [
         hint1: "Hint 1 - Double Click the comments and Error in the console to see where they take you in code.",
         hint2: "Hint 2 - Check the hierarchy for something that should not be there.",
         hint3: "Hint 3 - The Trophy script has something extra in it as well."
+    },  
+    {
+        id: 11,
+        name: "Mission 11 - In the Way",
+        hint1: "Hint 1 - There is an empty UIManager script, you can use that. Just add it to the scene",
+        hint2: "Hint 2 - GetKeyDown",
+        hint3: "Hint 3 - Find the MissionPopup game object and use SetActive() function on it."
+    }
+    ,  
+    {
+        id: 12,
+        name: "Mission 12 - Quiz Master's Revenge",
+        hint1: "Hint 1 - This one you have to do on your own.",
+        hint2: "Hint 2 - You'll learn from wrong answers too.",
+        hint3: "Hint 3 - You can repeat this until you know at least half of the answers by heart!"
     }
 ];
 
 var selectedid = -1;
 function createHints()
 {
+    
     hints.forEach(element => {
+        var boss = element.id != 0 && element.id % 10 == 0;
+        var quiz = element.id % 10 != 0 && element.id % 4 == 0;
+        var col = boss ? "#652222" : quiz ? "#0e594e" : "rgb(48, 48, 48)";
+
         console.log(element.name);
         var block = `
             <div class="hintheader">
@@ -101,6 +121,7 @@ function createHints()
         var div = document.createElement('div');
         div.innerHTML = block;
         div.classList.add("hintbox");
+        div.style.backgroundColor = col;
         const p = document.getElementById("hints");
         p.appendChild(div);
     });
