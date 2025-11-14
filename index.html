@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #2eadcb;">
     <head>
         <title>Cody's Hints</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="Cody.png">
     </head>
     <body>
         <div class="navbar">
@@ -13,16 +14,41 @@
             </div>
         </div>
         <div id="titlesection" class="section">
-            <h1 class="sectiontitle">Cody's Unity Adventures</h1>
+            <h1 class="sectiontitle" style="font-size: 45px">Cody's Unity Adventures</h1>
+            <img src="previewcody.png" style="border: solid 2px black;"/><br>
             <div class="txtbox">
-                <p class="txtboxtxt">asd</p>
+                <p class="txtboxtxt">Cody's Unity Adventures is a game about learning Unity. You play the game in the Unity Editor and solve the missions you are given to unlock the goal.</p>
+                <br><img src="trophy.png"/>
             </div>
         </div>
         <div class="liner"></div>
-        <div id="howtoplaysection" class="section">
+        <div id="howtoplaysection" class="section" style="background-color: white;">
             <h1 class="sectiontitle">How to play</h1>
             <div class="txtbox">
-                <p class="txtboxtxt">asd</p>
+                <p class="txtboxtxt">Installation</p>
+                <p class="txtboxtxt">To start playing Cody's Unity Adventures you need to do the following steps.</p>
+                <div class="spacer"></div>
+                <button class="txtboxbtn" onclick="window.location.href='https://git-scm.com/install/windows'">Install Git on your PC</button>
+                <p class="txtboxtxt">You can download the Git Bash, so you can use the Unity Editor navigation to move between Mission since each mission is on their own branch. This requires the PATH setup for git too (This might require a PC reboot after installing Git). Or you can use Git Hub Desktop and manually change branch from the dropdown menu.</p>
+                <div class="spacer"></div>
+                <button class="txtboxbtn" onclick="window.location.href='https://github.com/Batzuga/CodysUnityAdventure.git '">Clone the project on your pc</button>
+                <p class="txtboxtxt">Copy the git url and use it to clone the project on your local drive.</p>
+                <div class="spacer"></div>
+                <button class="txtboxbtn" onclick="window.location.href='https://unity.com/releases/editor/archive'">Install Unity version 6.0.44f</button>
+                <p class="txtboxtxt">You can manually download the correct version from Unity archives, or you can try to open the cloned project in Unity Hub and it suggest downloading the correct version automatically. The Unity version is marked with a know security issue just like most of them are before 6.2.1f, but it's not an issue since this game is not a "release" / build</p>
+            </div>
+            <div class="txtbox">
+                <p class="txtboxtxt">Mission</p>
+                <p class="txtboxtxt">Each mission has their own objective you need to complete to activate the Trophy (goal). <br>There are regular missions, quizes, and boss fights that have multiple issues to fix.</p>
+                <p class="txtboxtxt">You can see the mission on each level by looking at the Game view, or starting the play mode (which technically takes you to the game view as well)</p>
+            </div>
+            <div class="txtbox" style="background-color: #0e594e;">
+                <p class="txtboxtxt">Quiz</p>                
+                <p class="txtboxtxt">Every 4th level is a Quiz. And to complete the quiz you need to answer 5/10 questions correctly. If you fail to answer 5/10 correctly just start the play mode again.</p>
+            </div>
+            <div class="txtbox" style="background-color: #652222;">
+                <p class="txtboxtxt">Boss "Fight"</p>
+                <p class="txtboxtxt">In every boss fight your project is devastated by two prankster cats. To reach the goal you have to fix everything the cats have broken and remove their pranks to reach the goal.</p>
             </div>
         </div>
         <div class="liner"></div>
@@ -30,7 +56,7 @@
         <div id="hints" class="section">
             <h1 class="sectiontitle">Hints</h1>
             <div class="txtbox">
-                <p class="txtboxtxt">Here you can find 3 hints for each mission</p>
+                <p class="txtboxtxt">Here you can find 3 hints for each mission. After you open a hint, the next Hint-button becomes visible.</p>
             </div>
             <script src="missionmanager.js"></script>
         </div>

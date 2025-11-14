@@ -14,7 +14,7 @@ body{
     z-index: 1;
     position: sticky;
     top:0;
-    width: 100vw;
+    width: 100%;
     height: 80px;
     background: #5194ff;
     display: flex;
@@ -124,20 +124,45 @@ button:hover{
 {
     display: flex;
     margin: 0 20px 20px 20px;
-    background: gray;
+    background: rgb(48, 48, 48);
     width: 700px;
     max-width: 98%;
     justify-content: center;
+    padding: 15px;
     border-radius: 5px;
     filter: drop-shadow(0px 2px 1px black);
     color: white;
+    flex-direction: column;
+    align-items: center;
 }
 .txtboxtxt
 {
     color: white;
     font-size: 20px;
     padding: 0;
-    margin: 15px;
+    margin: 15px 5px 0px 5px;
+    text-align: center;
+}
+.spacer
+{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    margin: 10px;
+}
+.txtboxbtn
+{
+    width: 75%;
+    height: 35px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    filter: drop-shadow(0px 2px 1px black);
+    background: #5194ff;
+}
+.txtboxbtn:hover{
+    background-color: #3473da !important;
 }
 .section
 {
