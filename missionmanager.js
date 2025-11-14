@@ -60,9 +60,9 @@ function createHints()
             <div class="hintheader">
                 <p class="hintlevelname">${element.name}</p>
                 <div class="hintbuttons">
-                    <button class="hintbutton" onClick="openHint(${element.id},1)">Hint 1</button>
-                    <button class="hintbutton" onClick="openHint(${element.id},2)">Hint 2</button>
-                    <button class="hintbutton" onClick="openHint(${element.id},3)">Hint 3</button>
+                    <button class="hintbutton" id="mission-${element.id}-btn1" onClick="openHint(${element.id},1)">Hint 1</button>
+                    <button class="hintbutton" id="mission-${element.id}-btn2" style="display:none;" onClick="openHint(${element.id},2)">Hint 2</button>
+                    <button class="hintbutton" id="mission-${element.id}-btn3" style="display:none;" onClick="openHint(${element.id},3)">Hint 3</button>
                 </div>
             </div>            
             <div class="hinttextbox" id="mission-${element.id}-hintbox">
@@ -80,6 +80,16 @@ function createHints()
 
 function openHint(m, a)
 {
+    if(a == 1)
+    {
+        const b2 = document.getElementById("mission-" + m + "-btn2");
+        b2.style.display = "inline-flex";
+    }
+    if(a == 2)
+    {
+        const b2 = document.getElementById("mission-" + m + "-btn3");
+        b2.style.display = "inline-flex";
+    }
     if(selectedid != -1)
     {
         const o = document.getElementById("mission-" + selectedid + "-hintbox");
