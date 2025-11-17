@@ -132,6 +132,13 @@ var hints = [
         hint1: "Hint 1 - Rigidbody and Collider are required for physics collision.",
         hint2: "Hint 2 - Check the Overlapcheck for conditions.",
         hint3: "Hint 3 - Change the Tag on the PushableBox."
+    },  
+    {
+        id: 19,
+        name: "Mission 19 - Let there be light",
+        hint1: "Hint 1 - Check the parameter in the function to fix the first error.",
+        hint2: "Hint 2 - The interact target is set on trigger, so all you have to do is call the interact function from the target.",
+        hint3: "Hint 3 - Setup the StreetLamp and add the necessary changes to SetLightOn function. Change the sprite and enable the lightsource gameobject."
     }
 ];
 
