@@ -96,6 +96,7 @@ body{
 .sectiontitle
 {
     display: flex;
+    color: #303030;
     justify-content: center;
 }
 .navbtns

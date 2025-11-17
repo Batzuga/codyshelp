@@ -83,14 +83,55 @@ var hints = [
         hint1: "Hint 1 - There is an empty UIManager script, you can use that. Just add it to the scene",
         hint2: "Hint 2 - GetKeyDown",
         hint3: "Hint 3 - Find the MissionPopup game object and use SetActive() function on it."
-    }
-    ,  
+    },  
     {
         id: 12,
         name: "Mission 12 - Quiz Master's Revenge",
         hint1: "Hint 1 - This one you have to do on your own.",
         hint2: "Hint 2 - You'll learn from wrong answers too.",
         hint3: "Hint 3 - You can repeat this until you know at least half of the answers by heart!"
+    },  
+    {
+        id: 13,
+        name: "Mission 13 - Score To Settle",
+        hint1: "Hint 1 - Check the UI Manager script in the scene.",
+        hint2: "Hint 2 - You need to create a TextMeshProUGUI in on the GameUI.",
+        hint3: "Hint 3 - UIManager needs to add 1 score every time you collect a diamond."
+    },  
+    {
+        id: 14,
+        name: "Mission 14 - I Can Jump That Far",
+        hint1: "Hint 1 - There are errors in the Player.cs that need fixing.",
+        hint2: "Hint 2 - Check the force direction",
+        hint3: "Hint 3 - grounded == true"
+    },  
+    {
+        id: 15,
+        name: "Mission 15 - Runnin In The Air",
+        hint1: "Hint 1 - The animator is all set up.",
+        hint2: "Hint 2 - Player.cs Update is where the magic happens.",
+        hint3: "Hint 3 - Send the grounded info to the animator after the grounded check."
+    },  
+    {
+        id: 16,
+        name: "Mission 16 - Quiz Master Is Back",
+        hint1: "Hint 1 - This one you have to do on your own.",
+        hint2: "Hint 2 - You'll learn from wrong answers too.",
+        hint3: "Hint 3 - You can repeat this until you know at least half of the answers by heart!"
+    },  
+    {
+        id: 17,
+        name: "Mission 17- Let Me Try This Again",
+        hint1: "Hint 1 - Scene Manager does the level loading.",
+        hint2: "Hint 2 - Get Key Down anywhere you like. Player.cs works, or you can create a new script.",
+        hint3: "Hint 3 - You can save the loaded scene into a variable through SceneManager to get the current scene name."
+    },  
+    {
+        id: 18,
+        name: "Mission 18 - Push It Real Good",
+        hint1: "Hint 1 - Rigidbody and Collider are required for physics collision.",
+        hint2: "Hint 2 - Check the Overlapcheck for conditions.",
+        hint3: "Hint 3 - Change the Tag on the PushableBox."
     }
 ];
 
