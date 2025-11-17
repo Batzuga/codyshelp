@@ -153,6 +153,13 @@ var hints = [
         hint1: "Hint 1 - Find the correct object and check the SpriteRenderer.",
         hint2: "Hint 2 - Keep the scale at (1, 1, 1).",
         hint3: "Hint 3 - Change the Draw mode to Tiled."
+    },  
+    {
+        id: 22,
+        name: "Mission 22 - Stasis",
+        hint1: "Hint 1 - There is an empty animation on the Rabbit already, and the rabbit-Sheet textures have been made. Use them.",
+        hint2: "Hint 2 - Always end the looping animation on the first frame.",
+        hint3: "Hint 3 - The frames shoud go 0-1-2-3-0 on the animation"
     }
 ];
 
