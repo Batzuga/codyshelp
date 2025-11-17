@@ -73,7 +73,7 @@ var hints = [
     {
         id: 10,
         name: "Mission 10 - Boss Fight - Cat Pranks",
-        hint1: "Hint 1 - Double Click the comments and Error in the console to see where they take you in code.",
+        hint1: "Hint 1 - The cats often leave traces of their pranks. Double Click the comments and Error in the console to see where they take you in code.",
         hint2: "Hint 2 - Check the hierarchy for something that should not be there.",
         hint3: "Hint 3 - The Trophy script has something extra in it as well."
     },  
@@ -139,6 +139,20 @@ var hints = [
         hint1: "Hint 1 - Check the parameter in the function to fix the first error.",
         hint2: "Hint 2 - The interact target is set on trigger, so all you have to do is call the interact function from the target.",
         hint3: "Hint 3 - Setup the StreetLamp and add the necessary changes to SetLightOn function. Change the sprite and enable the lightsource gameobject."
+    },  
+    {
+        id: 20,
+        name: "Mission 20 - Boss Fight - Little Monsters",
+        hint1: "Hint 1 - Follow the console messages.",
+        hint2: "Hint 2 - There are few extra lines of code in the Player script that shouldn't be there.",
+        hint3: "Hint 3 - Trophy has something extra as well."
+    },  
+    {
+        id: 21,
+        name: "Mission 21 - Stretchy",
+        hint1: "Hint 1 - Find the correct object and check the SpriteRenderer.",
+        hint2: "Hint 2 - Keep the scale at (1, 1, 1).",
+        hint3: "Hint 3 - Change the Draw mode to Tiled."
     }
 ];
 
