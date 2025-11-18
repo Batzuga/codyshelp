@@ -27,7 +27,7 @@
         <div id="howtoplaysection" class="section" style="background-color: white;"> <br><br>
             <h1 class="sectiontitle">How to play</h1>
             <div class="txtbox">
-                <p class="txtboxtxt">Installation</p>
+                <p class="txtboxtxt"><b>Installation</b></p>
                 <p class="txtboxtxt">To start playing Cody's Unity Adventures you need to do the following steps.</p>
                 <div class="spacer"></div>
                 <button class="txtboxbtn" onclick="window.location.href='https://git-scm.com/install/windows'">Install Git on your PC</button>
@@ -40,17 +40,27 @@
                 <p class="txtboxtxt">You can manually download the correct version from Unity archives, or you can try to open the cloned project in Unity Hub and it suggest downloading the correct version automatically. The Unity version is marked with a know security issue just like most of them are before 6.2.1f, but it's not an issue since this game is not a "release" / build</p>
             </div>
             <div class="txtbox">
-                <p class="txtboxtxt">Mission</p>
+                <p class="txtboxtxt"><b>Mission</b></p>
                 <p class="txtboxtxt">Each mission has their own objective you need to complete to activate the Trophy (goal). <br>There are regular missions, quizes, and boss fights that have multiple issues to fix.</p>
                 <p class="txtboxtxt">You can see the mission on each level by looking at the Game view, or starting the play mode (which technically takes you to the game view as well)</p>
             </div>
             <div class="txtbox" style="background-color: #0e594e;">
-                <p class="txtboxtxt">Quiz</p>                
+                <p class="txtboxtxt"><b>Quiz</b></p>                
                 <p class="txtboxtxt">Every 4th level is a Quiz. And to complete the quiz you need to answer 5/10 questions correctly. If you fail to answer 5/10 correctly just start the play mode again.</p>
             </div>
             <div class="txtbox" style="background-color: #652222;">
-                <p class="txtboxtxt">Boss "Fight"</p>
+                <p class="txtboxtxt"><b>Boss "Fight"</b></p>
                 <p class="txtboxtxt">In every boss fight your project is devastated by two prankster cats. To reach the goal you have to fix everything the cats have broken and remove their pranks to reach the goal.</p>
+            </div>
+            <div class="txtbox">
+                <p class="txtboxtxt"><b>Changing Mission</b></p>
+                <p class="txtboxtxt">You can change mission to Next Mission / Previous Mission in the unity editor if you have Git Bash installed. At the top of the screen you can find Cody's Unity Adventure with Mission select options. Reset, Next, Previous. Next and Previous automatically discard all the changes as it's required for the mission to change properly. <br>NOTE! You cannot use the navigation in Editor if there are errors active in the scene. In that case, you have to change mission with GitHub Desktop, or Consoles</p>
+                <p class="txtboxtxt">However if you do not have a Git Bash installed, you can do the mission changing through Git Hub Desktop as well. First on the changes, right click on the 'X changed file(s)' and then discard all changes. Then, on the left side of the Fetch/Pull/Push button, is the branch selection. Just find the next mission from there, select leave my changes on Mission-X, and click Switch Branch.</p>
+                <p class="txtboxtxt">When you have changed the branch succesfully there should be a small loading time in the Unity Editor and a popup should pop on the screen. Click Reload Scene on the popup.</p>
+            </div>
+              <div class="txtbox">
+                <p class="txtboxtxt"><b>Empty Screen</b></p>
+                <p class="txtboxtxt">If you screen is empty and the level looks like there's nothing there you are not in any scene. Go to Project view and find SampleScene and open it. There you should find the active Mission.</p>
             </div>
             <span id="hintstarget"></span>
             <br><br>
